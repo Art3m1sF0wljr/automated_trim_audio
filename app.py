@@ -8,6 +8,8 @@ import soundfile as sf
 import os
 from pydub import AudioSegment
 import signal
+import matplotlib
+matplotlib.use('Agg')  # Use Anti-Grain Geometry backend (no GUI)
 import matplotlib.pyplot as plt
 
 # Ensure 'library' folder exists
